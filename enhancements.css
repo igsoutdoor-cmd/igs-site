@@ -545,3 +545,7 @@ img,video{max-width:100%}
   .article-aside p,.article-aside a{margin:0}
   .related-articles h2{margin-bottom:1.5rem}
 }
+
+/* Subtle, non-interactive audience labels in the hero. */
+.hero-foot > span{color:rgba(255,255,255,.62);font-size:.62rem;letter-spacing:.08em;cursor:default}
+.hero-foot > span::before{background:rgba(255,255,255,.3)}

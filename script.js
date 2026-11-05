@@ -82,7 +82,7 @@ if (header && nav) {
       <nav class="section-nav" aria-label="Разделы главной страницы">
         <a href="stock.html">В наличии</a>
         <a href="#solutions">Решения</a>
-        <a href="#projects">Реальные проекты</a>
+        <a href="#projects">Выполненные объекты</a>
         <a href="#process">Этапы работы</a>
         <a href="#request">Обсудить проект</a>
       </nav>`);
