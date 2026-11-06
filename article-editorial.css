@@ -34,9 +34,11 @@
 .ed-photo img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
 .ed-photo figcaption{display:flex;justify-content:space-between;gap:1rem;padding:.9rem 0 0;background:var(--ed-paper);color:var(--ed-muted);font-size:.77rem;line-height:1.65}
 .ed-photo figcaption span:first-child{color:var(--ed-red);font-weight:600}
+.ed-photo--portrait{max-width:760px;margin-inline:auto}
+.editorial-article .ed-photo--portrait img{aspect-ratio:3/4}
 .ed-photos{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-block:3rem}
 .ed-photos .ed-photo{margin:0}
-.ed-photos .ed-photo img{aspect-ratio:4/5;object-position:center}
+.ed-photos .ed-photo img{aspect-ratio:4/3;object-position:center}
 .ed-photos .ed-photo figcaption{display:block}
 .ed-band{background:#19251d;color:#f2f0e9;padding:clamp(1.5rem,4.5vw,3.75rem);margin-block:3rem}
 .ed-band .ed-eyebrow{color:#d1b278}
