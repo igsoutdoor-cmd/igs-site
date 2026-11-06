@@ -84,3 +84,17 @@
 @media(max-width:760px){.ed-intro,.ed-chapter-heading{grid-template-columns:1fr;gap:1.5rem}.ed-intro{margin-bottom:2rem}.ed-note{max-width:100%}.ed-toc{display:block}.ed-toc ol{margin-top:.65rem;gap:.5rem 1rem}.ed-chapter-heading>p{max-width:100%}.ed-comparison-row>*{padding:.8rem;font-size:.82rem}.ed-photos{gap:.8rem}}
 @media(max-width:560px){.editorial-article .article-hero .back-home{top:6.5rem}.editorial-article .article-hero{min-height:76svh;padding:8rem 1.25rem 3rem}.editorial-article .article-hero h1{font-size:clamp(2rem,8.7vw,2.7rem);line-height:1.12;max-width:100%}.ed-cards{grid-template-columns:1fr;gap:1rem}.ed-photos{grid-template-columns:1fr;gap:2rem}.ed-photos .ed-photo img{aspect-ratio:4/3}.ed-photo img{aspect-ratio:4/3}.ed-photo figcaption{display:block}.ed-photo figcaption span{display:block}.ed-comparison-row{grid-template-columns:.9fr 1fr 1fr}.ed-comparison-row>*{padding:.65rem .5rem;font-size:.76rem}.ed-comparison-row strong{font-size:.76rem}.ed-flow p,.ed-flow li{font-size:.98rem}.ed-tags li{font-size:.75rem}.ed-toc li{font-size:.8rem}.ed-steps li{grid-template-columns:30px minmax(0,1fr);gap:.8rem}}
 @media(prefers-reduced-motion:reduce){.editorial-article{scroll-behavior:auto}}
+
+/* Compact photo groups and image/text pairs for article reading. */
+.editorial-article .ed-photos img{height:clamp(220px,27vw,340px);aspect-ratio:auto}
+.ed-photos--compact{max-width:840px;margin-inline:auto}
+.editorial-article .ed-photos--compact img{height:400px}
+.ed-photos--narrow{max-width:640px}
+.ed-split{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(1.5rem,4vw,3rem);align-items:center;margin-block:clamp(3rem,6vw,5rem)}
+.ed-split>.ed-photo,.ed-split>.ed-chapter{margin:0;max-width:none;min-width:0}
+.editorial-article .ed-split .ed-photo img{height:400px;aspect-ratio:auto}
+.ed-split .ed-photo figcaption,.ed-split .ed-photo figcaption span{display:block}
+.ed-split .ed-photo figcaption span+span{margin-top:.2rem}
+.ed-split h2{font-size:clamp(1.9rem,2.8vw,2.6rem)}
+@media(max-width:760px){.ed-split{grid-template-columns:1fr;gap:2rem}.editorial-article .ed-split .ed-photo img{height:320px}}
+@media(max-width:560px){.ed-photos--compact{grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}.editorial-article .ed-photos--compact img{height:clamp(210px,58vw,260px)}.ed-photos--compact figcaption{font-size:.72rem}.editorial-article .ed-split .ed-photo img{height:260px}}
