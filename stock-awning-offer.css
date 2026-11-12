@@ -1,0 +1,29 @@
+/* Cassette awning offer, scoped to the in-stock page. */
+.stock-page .awning-offer h2,.stock-page .awning-offer h3{font-family:Georgia,'Times New Roman',serif!important;font-weight:700!important}
+.stock-page .awning-offer{width:100%;min-width:0;background:#e9e8e4;border:1px solid #d5d3cf;box-shadow:0 12px 36px #1717170a}
+.awning-offer-header{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.5rem;background:#101113;color:#f5f3ee}
+.stock-page .awning-offer h2{margin:0;font:700 clamp(1.4rem,2.5vw,2.4rem)/1.08 Georgia,'Times New Roman',serif;letter-spacing:.01em;text-transform:uppercase}
+.awning-offer-icon{flex:0 0 20%;width:20%;max-width:110px;color:#be7676}
+.awning-offer-body{padding:1.6rem 1.3rem}
+.awning-offer-label{display:flex;align-items:center;justify-content:space-between;gap:.7rem;margin:0 0 1rem}
+.awning-offer-label h3{margin:0;font:700 .9rem/1.3 Georgia,'Times New Roman',serif;text-transform:uppercase;letter-spacing:.02em;color:#4b4b48}
+.awning-offer-label>span{font-size:.62rem;color:#676863;text-align:right}
+.awning-price-grid,.awning-fabric-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+.awning-price-grid{margin-bottom:1.5rem}
+.awning-price-card{padding:1rem .85rem;background:#f5f4f1;border:1px solid #d8d6d2;border-radius:18px}
+.awning-price-top,.awning-price-bottom{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.awning-size{padding:.35rem 1rem;border-radius:30px;background:#a62e35;color:#fff;font:700 .85rem/1.2 Georgia,'Times New Roman',serif;white-space:nowrap}
+.awning-price-card:nth-child(2) .awning-size{background:#222426}
+.awning-price-top del{color:#77736e;text-decoration-color:#a62e35;font-size:.72rem;white-space:nowrap}
+.awning-price-bottom{margin-top:1.2rem}
+.awning-price-bottom span{font-size:.6rem;color:#676863}
+.awning-price-bottom strong{font:700 clamp(1.15rem,1.9vw,1.8rem)/1.2 Georgia,'Times New Roman',serif;white-space:nowrap;color:#252526}
+.awning-fabric-card{min-width:0;padding:.8rem;background:#f5f4f1;border:1px solid #d8d6d2;border-radius:18px;overflow:hidden}
+.awning-fabric-card img{display:block;width:100%;aspect-ratio:2.05;object-fit:cover;border-radius:12px}
+.awning-fabric-card>div{padding:1.3rem .3rem .3rem}
+.awning-fabric-card span{color:#93454a;font:700 .68rem/1.3 Georgia,'Times New Roman',serif;text-transform:uppercase}
+.awning-fabric-card h4{margin:.25rem 0;font:700 1.15rem/1.2 Georgia,'Times New Roman',serif;color:#252526}
+.awning-fabric-card p{margin:0;font-size:.7rem;line-height:1.4;color:#676863}
+.stock-page .awning-installation-note{margin:.9rem 0 1.2rem;font-size:10px;line-height:1.5;color:#676863}
+@media(min-width:901px){.stock-page .stock-item-reverse{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:clamp(2rem,4vw,5rem)}}
+@media(max-width:560px){.awning-offer-header{padding:1.1rem .9rem}.stock-page .awning-offer h2{font-size:1.4rem}.awning-offer-body{padding:1.2rem .75rem}.awning-offer-label h3{font-size:.73rem}.awning-offer-label>span{font-size:.55rem}.awning-price-grid,.awning-fabric-grid{gap:.6rem}.awning-price-card{padding:.85rem .6rem;border-radius:14px}.awning-price-top{flex-wrap:wrap;gap:.65rem}.awning-size{font-size:.75rem;padding:.3rem .75rem}.awning-price-top del{font-size:.6rem}.awning-price-bottom{align-items:flex-start;flex-direction:column;gap:.4rem;margin-top:.9rem}.awning-price-bottom strong{font-size:1.25rem}.awning-fabric-card{padding:.5rem;border-radius:14px}.awning-fabric-card img{border-radius:9px}.awning-fabric-card>div{padding:.85rem .1rem .25rem}.awning-fabric-card h4{font-size:1rem}.awning-fabric-card span{font-size:.6rem}.awning-fabric-card p{font-size:.65rem}}
