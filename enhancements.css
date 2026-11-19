@@ -555,3 +555,12 @@ img,video{max-width:100%}
 /* Subtle, non-interactive audience labels in the hero. */
 .hero-foot > span{color:rgba(255,255,255,.62);font-size:.62rem;letter-spacing:.08em;cursor:default}
 .hero-foot > span::before{background:rgba(255,255,255,.3)}
+
+/* Keep product images within the fixed card frame. */
+.products .product-card > img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
