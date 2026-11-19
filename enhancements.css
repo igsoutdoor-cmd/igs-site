@@ -564,3 +564,14 @@ img,video{max-width:100%}
   height:100%;
   object-fit:cover;
 }
+
+/* Align the audience introduction with the descriptions in the list. */
+.audiences .section-head{
+  grid-template-columns:80px 1fr 1fr;
+  column-gap:2rem;
+}
+.audiences .section-head > div{grid-column:span 2}
+@media(max-width:900px){
+  .audiences .section-head{grid-template-columns:42px 1fr}
+  .audiences .section-head > p{grid-column:2}
+}
