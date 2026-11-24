@@ -154,5 +154,5 @@ document.querySelectorAll('.faq-page details').forEach(details => {
 });
 
 const languageScript = document.createElement('script');
-languageScript.src = 'i18n.js';
+languageScript.src = 'i18n.js?v=translations-20261124';
 document.head.append(languageScript);
